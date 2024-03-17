@@ -1,2 +1,9 @@
-package com.ssg.meowwms.config;public class MeowWMSConfiguration {
+package com.ssg.meowwms.config;
+
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+
+public class MeowWMSConfiguration implements WebMvcConfigurer {
+
 }
+
